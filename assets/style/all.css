@@ -3225,8 +3225,8 @@ textarea.form-control-lg {
 
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(0, 204, 153, 0.25);
-          box-shadow: 0 0 0 0.25rem rgba(0, 204, 153, 0.25);
+  -webkit-box-shadow: white;
+          box-shadow: white;
 }
 
 .btn:disabled, .btn.disabled,
@@ -5126,8 +5126,8 @@ fieldset:disabled .btn {
 .accordion-button:not(.collapsed) {
   color: #00b88a;
   background-color: #e6faf5;
-  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
-          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+  -webkit-box-shadow: inset 0 -1px 0 white;
+          box-shadow: inset 0 -1px 0 white;
 }
 
 .accordion-button:not(.collapsed)::after {
@@ -5170,8 +5170,8 @@ fieldset:disabled .btn {
   z-index: 3;
   border-color: #80e6cc;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(0, 204, 153, 0.25);
-          box-shadow: 0 0 0 0.25rem rgba(0, 204, 153, 0.25);
+  -webkit-box-shadow: white;
+          box-shadow: white;
 }
 
 .accordion-header {
@@ -5180,7 +5180,7 @@ fieldset:disabled .btn {
 
 .accordion-item {
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid white;
 }
 
 .accordion-item:first-of-type {
@@ -5641,9 +5641,8 @@ fieldset:disabled .btn {
 
 .list-group-item.active {
   z-index: 2;
-  color: #fff;
-  background-color: #00cc99;
-  border-color: #00cc99;
+  background-color: #dee2e6;
+  border-color: #ced4da;
 }
 
 .list-group-item + .list-group-item {
@@ -11916,6 +11915,10 @@ img {
   display: block;
 }
 
+.ml-64 {
+  margin-left: 57px;
+}
+
 .p-14 {
   padding: 14px 0;
 }
@@ -11926,6 +11929,16 @@ img {
 
 .mb-42 {
   margin-bottom: 42px;
+}
+
+.fs-12 {
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.fs-14 {
+  font-size: 14px;
+  line-height: 21px;
 }
 
 header {
