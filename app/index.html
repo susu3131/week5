@@ -135,6 +135,18 @@ current: index
                               <br>• change the display so it isn’t inline.</p>
                             
                           </div>
+                          <div class="m--16 border-0 ">
+                            <div id="editor">
+                            </div>
+                            <script >
+                                ClassicEditor
+                                    .create( document.querySelector( '#editor' ) )
+                                    .catch( error => {
+                                        console.error( error );
+                                    } );
+                            </script>
+                          </div>
+                          
                         </div>
                       </div>
                     </div>
@@ -145,14 +157,20 @@ current: index
                       </box>
                       <box>
                         <button class="btn border-success text-success fw-bold ps-4 pe-4">Mark as read</button>
-                        <button class="btn btn-success  fw-bold ps-4 pe-4 ms-3">Reply</button></box>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-success  fw-bold ps-4 pe-4 ms-3" data-bs-toggle="modal" data-bs-target="#Modal-text">
+                          Reply
+                        </button>
+                        
+                      </box>
+                        
                     </div>
                   </div>
                   <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-2">沒有東西</div>
                   <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-3">沒有東西</div>
                   <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-4">沒有東西</div>
                 </div>
-              </div>
+              
             </div>
           </div>
         </div>

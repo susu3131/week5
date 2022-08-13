@@ -33,9 +33,57 @@ current: admin
         <td >Emir Wicks</td>
         <td >emir.wicks@mail.com</td>
         <td >yes</td>
-        <td class="text-center"><i class="fa-solid fa-eye "></i></td>
-        <td class="text-center" ><i class="fa-solid fa-pen  "></i></td>
+        <td class="text-center">
+          <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa-solid fa-eye "></i>
+          </button>
+        </td>
+        <td class="text-center">
+          <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa-solid fa-pen  "></i>
+          </button>
+        </td>
       </tr>
+        <!-- Modal -->
+        <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="d-flex  p-3">
+                  <div class="flex-shrink-0 ">
+                    <img src="./assets/images/emir.jpeg" style="width: 141px; height: 141px;" alt="...">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <ul>
+                      <li class="text-dark">#1</li>
+                      <li>Admin</li>
+                      <li class="fw-bold">Emir Wicks</li>
+                      <li class="">emir.wicks@mail.com</li>
+                    </ul>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                          <button class="btn  d-flex justify-content-between w-100" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            
+                            <p class="bg-light p-0 mb-0 fs-14 text-dark">Verified</p>
+                            <i class="fa-solid fa-angle-down ms-3 text-success"></i> 
+                          </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                          <div class="d-flex justify-content-between mt-3">
+                            <button class="btn btn-outline-danger w-50 ">Deactivate</button>
+                            <button class="btn btn-success w-50 ms-3">Edit</button>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- modal end -->
       <tr >
         <th scope="row">#2</th>
         <td>Zaina Goldsmith</td>
