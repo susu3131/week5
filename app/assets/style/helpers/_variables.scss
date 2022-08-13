@@ -447,6 +447,7 @@ $h3-font-size:                $font-size-base * 1.75 !default;
 $h4-font-size:                $font-size-base * 1.5 !default;
 $h5-font-size:                $font-size-base * 1.25 !default;
 $h6-font-size:                $font-size-base !default;
+
 // scss-docs-end font-variables
 
 // scss-docs-start font-sizes
@@ -632,7 +633,7 @@ $btn-border-width:            $input-btn-border-width !default;
 $btn-font-weight:             $font-weight-normal !default;
 $btn-box-shadow:              inset 0 1px 0 rgba($white, .15), 0 1px 1px rgba($black, .075) !default;
 $btn-focus-width:             $input-btn-focus-width !default;
-$btn-focus-box-shadow:        $input-btn-focus-box-shadow !default;
+$btn-focus-box-shadow:        white !default;
 $btn-disabled-opacity:        .65 !default;
 $btn-active-box-shadow:       inset 0 3px 5px rgba($black, .125) !default;
 
@@ -1107,7 +1108,7 @@ $accordion-padding-x:                     1.25rem !default;
 $accordion-color:                         $body-color !default;
 $accordion-bg:                            $body-bg !default;
 $accordion-border-width:                  $border-width !default;
-$accordion-border-color:                  rgba($black, .125) !default;
+$accordion-border-color:                 white !default;
 $accordion-border-radius:                 $border-radius !default;
 $accordion-inner-border-radius:           subtract($accordion-border-radius, $accordion-border-width) !default;
 
@@ -1317,9 +1318,9 @@ $list-group-item-bg-scale:          -80% !default;
 $list-group-item-color-scale:       40% !default;
 
 $list-group-hover-bg:               $gray-100 !default;
-$list-group-active-color:           $component-active-color !default;
-$list-group-active-bg:              $component-active-bg !default;
-$list-group-active-border-color:    $list-group-active-bg !default;
+$list-group-active-color:           !default;
+$list-group-active-bg:              $gray-300 !default;
+$list-group-active-border-color:    $gray-400 !default;
 
 $list-group-disabled-color:         $gray-600 !default;
 $list-group-disabled-bg:            $list-group-bg !default;
