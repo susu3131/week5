@@ -2,5 +2,19 @@
 @import "./helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+// base
+@import "./base/cssreset";
+@import "./base/base.scss";
 
-@import './layout/index.scss'
+// @import "./base/mixin.scss";
+@import "./util";
+
+// layout
+@import "./layout/layout";
+// @import "./layout/header";
+// @import "./layout/footer";
+
+// // page
+@import "./page/admin";
+@import "./page/index";

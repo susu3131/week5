@@ -1,0 +1,130 @@
+---
+title: 首頁
+layout: ./app/layout.ejs
+engine: ejs
+current: admin
+---
+<div class="container p-4 "  >
+  <div class="index-tittle d-flex justify-content-between">
+    <div class="index-tittle-box d-flex align-items-center  ">
+      <h1 class="fw-bold m-0  ">Admin</h1>
+      <i class="fa-solid fa-plus ms-3 text-success"></i>
+      <span class="ms-2 fw-bold">Add New Admin</span>
+    </div>
+    <div class="index-tittle-box">
+      <i class="fa-solid fa-magnifying-glass "></i>
+      <i class="fa-solid fa-bell ms-4"></i>
+    </div>
+  </div>  
+  <table class=" table table-hover mt-5 align-middle" >
+    <thead class="fw-bold ">
+      <tr >
+        <th scope="col ">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Verified</th>
+        <th scope="col "></th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody  >
+      <tr  >
+        <th scope="row ">#1</th>
+        <td >Emir Wicks</td>
+        <td >emir.wicks@mail.com</td>
+        <td >yes</td>
+        <td class="text-center"><i class="fa-solid fa-eye "></i></td>
+        <td class="text-center" ><i class="fa-solid fa-pen  "></i></td>
+      </tr>
+      <tr >
+        <th scope="row">#2</th>
+        <td>Zaina Goldsmith</td>
+        <td>zaina.goldsmith@mail.com</td>
+        <td>yes</td>
+        <td class="text-center"><i class="fa-solid fa-eye "></i></td>
+        <td class="text-center" ><i class="fa-solid fa-pen  "></i></td>
+        
+      </tr>
+      <tr>
+        <th scope="row">#3</th>
+        <td>Mahima Lopez</td>
+        <td>mahima.lopez@mail.com</td>
+        <td>yes</td>
+        <td class="text-center"><i class="fa-solid fa-eye "></i></td>
+        <td class="text-center" ><i class="fa-solid fa-pen  "></i></td>
+      </tr>
+      <tr>
+        <th scope="row">#4</th>
+        <td>Pharrell Murray</td>
+        <td>pharrell.murray@mail.com</td>
+        <td>yes</td>
+        <td class="text-center"><i class="fa-solid fa-eye "></i></td>
+        <td class="text-center" ><i class="fa-solid fa-pen  "></i></td>
+      </tr>
+      <tr>
+        <th scope="row">#5</th>
+        <td>Annika Mcbride</td>
+        <td>annika.mcbride@mail.com</td>
+        <td>yes</td>
+        <td class="text-center"><i class="fa-solid fa-eye "></i></td>
+        <td class="text-center" ><i class="fa-solid fa-pen  "></i></td>
+      </tr>
+      <tr>
+        <th scope="row">#6</th>
+        <td>Fatimah Clark</td>
+        <td>fatimah.clark@mail.com</td>
+        <td>yes</td>
+        <td class="text-center"><i class="fa-solid fa-eye "></i></td>
+        <td class="text-center" ><i class="fa-solid fa-pen  "></i></td>
+      </tr>
+      <tr>
+        <th scope="row">#7</th>
+        <td>Klaudia Rhodes</td>
+        <td>klaudia.rhodes@mail.com</td>
+        <td>yes</td>
+        <td class="text-center"><i class="fa-solid fa-eye "></i></td>
+        <td class="text-center" ><i class="fa-solid fa-pen  "></i></td>
+      </tr>
+      <tr>
+        <th scope="row">#8</th>
+        <td>Tillie Lucero</td>
+        <td>tillie.lucero@mail.com</td>
+        <td>yes</td>
+        <td class="text-center"><i class="fa-solid fa-eye "></i></td>
+        <td class="text-center" ><i class="fa-solid fa-pen  "></i></td>
+      </tr>
+      <tr>
+        <th scope="row">#9</th>
+        <td>Sabrina Stephenson</td>
+        <td>sabrina.stephenson@mail.com</td>
+        <td>yes</td>
+        <td class="text-center"><i class="fa-solid fa-eye "></i></td>
+        <td class="text-center" ><i class="fa-solid fa-pen  "></i></td>
+      </tr>
+      <tr>
+        <th scope="row">#10</th>
+        <td>Annie Smith</td>
+        <td>annie.smith@mail.com</td>
+        <td>yes</td>
+        <td class="text-center"><i class="fa-solid fa-eye "></i></td>
+        <td class="text-center" ><i class="fa-solid fa-pen  "></i></td>
+      </tr>
+    </tbody>
+  </table>
+  <nav aria-label="Page navigation example  page-button ">
+    <ul class="pagination justify-content-end  pt-4 mb-0 ">
+      <li class="page-item">
+        <a class="page-link text-success border-success s" href="#" aria-label="Previous">
+          <i class="fa-solid fa-angle-left"></i>
+        </a>
+      </li>
+      <li class="page-item "><a class="page-link text-dark border-success"" href="#">1</a></li>
+      <li class="page-item"><a class="page-link text-dark border-success"" href="#">2</a></li>
+      <li class="page-item"><a class="page-link text-dark border-success"" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link text-success border-success"" href="#" aria-label="Next">
+          <i class="fa-solid fa-angle-right"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
