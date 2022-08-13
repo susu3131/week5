@@ -11913,6 +11913,12 @@ body h1, body .h1 {
 
 img {
   display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.m--16 {
+  margin: -16px;
 }
 
 .ml-64 {
@@ -11968,6 +11974,10 @@ td {
 nav a:hover {
   background: #198754 !important;
   color: white !important;
+}
+
+table button:hover {
+  color: #198754 !important;
 }
 
 /*# sourceMappingURL=all.css.map */
