@@ -1,15 +1,17 @@
+// jquery & bootstrap-
+@import url(https://code.jquery.com/jquery-3.6.0.min.js);
 @import "../../../node_modules/bootstrap/scss/functions";
-@import "./helpers/variables";
+@import "./helpers/variables"; // jquery 變數修改覆蓋
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
+// icon
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
 
 // base
 @import "./base/cssreset";
 @import "./base/base.scss";
-
 // @import "./base/mixin.scss";
-@import "./util";
+@import "./helpers/util";
 
 // layout
 @import "./layout/layout";

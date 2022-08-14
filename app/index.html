@@ -120,7 +120,8 @@ current: index
                             </button>
                           </div>
                         </div>
-                        <div class="card-box2 border-top  ">
+                        <!-- jquery card-box2  -->
+                        <div class="card-box2 border-top  " id="card-box2">
                           <div class="nav-box2 d-flex align-items-center mb-3 mt-3" >
                             <img class="  rounded-circle " style="width: 40px; height: 40px; "src="./assets/images/andychen.jpeg" alt="">
                             <div class="nav-text w-50 ps-3 ">
@@ -135,8 +136,11 @@ current: index
                               <br>• change the display so it isn’t inline.</p>
                             
                           </div>
-                          <div class="m--16 border-0 ">
+                          <!-- jquery 文字輸入  -->
+                          <div class="m--16 border-0" id="text">
                             <div id="editor">
+                              <p >Reply an answer…</p>
+                            </div>
                             </div>
                             <script >
                                 ClassicEditor
@@ -158,9 +162,12 @@ current: index
                       <box>
                         <button class="btn border-success text-success fw-bold ps-4 pe-4">Mark as read</button>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-success  fw-bold ps-4 pe-4 ms-3" data-bs-toggle="modal" data-bs-target="#Modal-text">
+
+                        <!-- jquery -->
+                        <button type="button" class="btn btn-success  fw-bold ps-4 pe-4 ms-3 " id="reply">
                           Reply
                         </button>
+                        
                         
                       </box>
                         

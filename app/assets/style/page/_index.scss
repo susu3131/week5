@@ -1,0 +1,16 @@
+#id{
+  display: none;
+}
+
+
+#text{
+  width: 100%;
+  display: none;
+  position:absolute;
+  top: 65%;
+}
+
+.ck-editor__editable[role="textbox"] {
+  /* editing area */
+  min-height: 160px;
+}
