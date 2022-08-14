@@ -1,3 +1,4 @@
+@import url(https://code.jquery.com/jquery-3.6.0.min.js);
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11988,6 +11989,22 @@ nav a:hover {
 
 table button:hover {
   color: #198754 !important;
+}
+
+#id {
+  display: none;
+}
+
+#text {
+  width: 100%;
+  display: none;
+  position: absolute;
+  top: 65%;
+}
+
+.ck-editor__editable[role="textbox"] {
+  /* editing area */
+  min-height: 160px;
 }
 
 /*# sourceMappingURL=all.css.map */
