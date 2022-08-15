@@ -1,0 +1,74 @@
+<div class="card p-0">
+  <div class="card-header d-flex justify-content-between align-items-center">
+    <div>
+      <h3 class="fs-12">Chapter Assignment 2 / HTML&CSS</h3>
+      <h4 class="fs-6 fw-bold">Please check this file for me, thanks!</h4>
+    </div>
+    <i class="fa-solid fa-ellipsis-vertical me-2"></i>
+  </div>
+  <div class="card-body">
+    <div class="card-box ">
+      <div class="nav-box2 d-flex align-items-center mb-3">
+        <img class="  rounded-circle " style="width: 40px; height: 40px; " src="./assets/images/emilywang.jpeg" alt="">
+        <div class="nav-text w-50 ps-3 ">
+          <h3 class="fw-bold fs-6 m-0">Emily Wang</h3>
+          <p class="text-secondary m-0 fs-12">10:38 AM (4 hours ago)</p>
+        </div>
+      </div>
+      <div class="fs-14 ml-64 text-dark  mb-3">
+        <p class="mb-0">Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the
+          following code the height of the div is bigger than the height of the img ? There is a gap below the image,
+          but it doesn’t seems to be a padding/margin. </p>
+        <p class="mb-3">What is the gap or extra space below image?</p>
+        <button class="btn border bg-light">
+          <i class="fa-solid fa-paperclip me-2"></i>
+          HW-2-David.zip
+        </button>
+      </div>
+    </div>
+    <!-- jquery card-box2  -->
+    <div class="card-box2 border-top  " id="card-box2">
+      <div class="nav-box2 d-flex align-items-center mb-3 mt-3">
+        <img class="  rounded-circle " style="width: 40px; height: 40px; " src="./assets/images/andychen.jpeg" alt="">
+        <div class="nav-text w-50 ps-3 ">
+          <h3 class="fw-bold fs-6 m-0">Andy Chen (You)</h3>
+          <p class="text-secondary m-0 fs-12">13:24 AM (1 hours ago)</p>
+        </div>
+      </div>
+      <div class="fs-14 ml-64 text-dark  mb-3">
+        <p class="mb-0">Hi David, by default, an image is rendered inline, like a letter so it sits on the same line
+          that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p
+          and q.</p>
+        <p class="mb-3">You can: 　
+          <br>• adjust the vertical-align of the image to position it elsewhere (e.g. the middle ) or 　
+          <br>• change the display so it isn’t inline.
+        </p>
+      </div>
+      <!-- jquery 文字輸入  -->
+      <div class="m--16 border-0 text" id="text">
+        <div id="editor">
+          <p>Reply an answer…</p>
+        </div>
+      </div>
+      <script>
+        ClassicEditor
+          .create(document.querySelector('#editor'))
+          .catch(error => {
+            console.error(error);
+          });
+      </script>
+    </div>
+  </div>
+  <div class="card-end mt-3 d-flex justify-content-between ">
+    <box>
+      <i class="fa-solid fa-angle-left ms-3 me-3"></i>
+      <i class="fa-solid fa-angle-right ms-3 me-3"></i>
+    </box>
+    <box>
+      <button class="btn border-success text-success fw-bold ps-4 pe-4">Mark as read</button>
+      <!-- jquery --><!-- Button trigger modal -->
+      <button type="button" class="btn btn-success  fw-bold ps-4 pe-4 ms-3 " id="reply">
+        Reply
+      </button>
+    </box>
+</div>

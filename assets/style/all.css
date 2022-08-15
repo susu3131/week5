@@ -11995,16 +11995,21 @@ table button:hover {
   display: none;
 }
 
-#text {
-  width: 100%;
+.text {
   display: none;
-  position: absolute;
-  top: 65%;
+}
+
+.text-show {
+  display: block;
+}
+
+.text-hide {
+  display: none;
 }
 
 .ck-editor__editable[role="textbox"] {
   /* editing area */
-  min-height: 160px;
+  min-height: 280px;
 }
 
 /*# sourceMappingURL=all.css.map */
