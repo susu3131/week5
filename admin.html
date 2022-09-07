@@ -1,71 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>首頁</title>
-    <link rel="stylesheet" href="./assets/style/all.css">
-    <script src="https://cdn.ckeditor.com/ckeditor5/35.0.1/classic/ckeditor.js"></script>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    首頁
+  </title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <script src="https://cdn.ckeditor.com/ckeditor5/35.0.1/classic/ckeditor.js"></script>
+</head>
 
-  <body>
-    <div class="d-flex">
-      <header class=" bg-light vh-100 " >
-        <a href="index.html">
-          <img class="mb-42 ps-4 mt-40" src="./assets/images/logo-ANSWER.svg" alt="logo-ANSWER" >
-        </a>
-        
-        <ul class="nav flex-column fw-bold ">
-          <li class="nav-item ">
-            <a class="nav-link ps-4 p-14 " aria-current="page" href="#"> 
-              <i class="fa-solid fa-square-poll-vertical"></i>
-              <span class="ms-3">Dashboard</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ps-4 p-14 " aria-current="page" href="#"> 
-              <i class="fa-solid fa-comments"></i>
-              <span class="ms-3">Question</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ps-4 p-14 " aria-current="page" href="index.html"> 
-              <i class="fa-solid fa-file-lines"></i>
-              <span class="ms-3">Assignment</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ps-4 p-14 " aria-current="page" href="#"> 
-              <i class="fa-brands fa-youtube"></i>
-              <span class="ms-3">Course</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ps-4 p-14 " aria-current="page" href="admin.html"> 
-              <i class="fa-solid fa-users"></i>
-              <span class="ms-3">Admin</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ps-4 p-14 " aria-current="page" href="#"> 
-              <i class="fa-solid fa-gear "></i>
-              <span class="ms-3">settings</span></a>
-          </li>
-        </ul>
-        
-        <div class="nav-box2 d-flex align-items-center position-absolute bottom-0 start-0 ps-4 mb-4" >
-          <img class="  rounded-circle " style="width: 40px; height: 40px; "src="./assets/images/andychen.jpeg" alt="">
-          <div class="nav-text w-50 ps-3 ">
-            <h3 class="fw-bold fs-6 m-0">Andy Chen</h3>
-            <p class="text-secondary m-0">andy0401@mail.com</p>
-          </div>
+<body>
+  <div class="d-flex">
+    <header class=" bg-light vh-100 ">
+      <a href="index.html">
+        <img class="mb-42 ps-4 mt-40" src="./assets/images/logo-ANSWER.svg" alt="logo-ANSWER">
+      </a>
+
+      <ul class="nav flex-column fw-bold ">
+        <li class="nav-item " data-aos="fade-up"      data-aos-duration="1500">
+          <a class="nav-link ps-4 p-14 " aria-current="page" href="#">
+            <i class="fa-solid fa-square-poll-vertical"></i>
+            <span class="ms-3">Dashboard</span></a>
+        </li>
+        <li class="nav-item" data-aos="fade-up"      data-aos-duration="1500">
+          <a class="nav-link ps-4 p-14 " aria-current="page" href="#">
+            <i class="fa-solid fa-comments"></i>
+            <span class="ms-3">Question</span></a>
+        </li>
+        <li class="nav-item" data-aos="fade-up"      data-aos-duration="1500">
+          <a class="nav-link ps-4 p-14 " aria-current="page" href="index.html">
+            <i class="fa-solid fa-file-lines"></i>
+            <span class="ms-3">Assignment</span></a>
+        </li>
+        <li class="nav-item" data-aos="fade-up"      data-aos-duration="1500">
+          <a class="nav-link ps-4 p-14 " aria-current="page" href="#">
+            <i class="fa-brands fa-youtube"></i>
+            <span class="ms-3">Course</span></a>
+        </li>
+        <li class="nav-item" data-aos="fade-up"      data-aos-duration="1500">
+          <a class="nav-link ps-4 p-14 " aria-current="page" href="admin.html">
+            <i class="fa-solid fa-users"></i>
+            <span class="ms-3">Admin</span></a>
+        </li>
+        <li class="nav-item" data-aos="fade-up"      data-aos-duration="1500">
+          <a class="nav-link ps-4 p-14 " aria-current="page" href="#">
+            <i class="fa-solid fa-gear "></i>
+            <span class="ms-3">settings</span></a>
+        </li>
+      </ul>
+
+      <div class="nav-box2 d-flex align-items-center position-absolute bottom-0 start-0 ps-4 mb-4">
+        <img class="  rounded-circle " style="width: 40px; height: 40px; " src="./assets/images/andychen.jpeg" alt="">
+        <div class="nav-text w-50 ps-3 ">
+          <h3 class="fw-bold fs-6 m-0">Andy Chen</h3>
+          <p class="text-secondary m-0">andy0401@mail.com</p>
         </div>
-      
-      </header>
+      </div>
+
+    </header>
 
     <div class="container p-4 ">
   <div class="index-tittle d-flex justify-content-between">
     <div class="index-tittle-box d-flex align-items-center  ">
-      <h1 class="fw-bold m-0 ">Admin</h1>
-      <i class="fa-solid fa-plus ms-5 text-success"></i>
-      <button class="ms-2 fw-bold btn" data-bs-toggle="modal" data-bs-target="#addnewadmin">
+      <h1 class="fw-bold m-0 " data-aos="fade-up"      data-aos-duration="1500">Admin</h1>
+      <i class="fa-solid fa-plus ms-5 text-success" data-aos="fade-up"      data-aos-duration="1500"></i>
+      <button class="ms-2 fw-bold btn" data-bs-toggle="modal" data-bs-target="#addnewadmin" data-aos="fade-up"      data-aos-duration="1500">
         Add New Admin
       </button>
       <!-- modal -->
@@ -78,7 +81,7 @@
             </div>
             <!-- modal-body -->
             <div class="modal-body ">
-              <div class="account fw-bold pb-4 pt-3 border-bottom">
+              <div class="account fw-bold pb-4 pt-3 border-bottom" >
                 <h3 class="fw-bold fs-20">Account</h3>
                 <label for="name">Name</label>
                 <input type="text" id="name" class="form-control mb-2 p-2" aria-label="name" aria-describedby="basic-addon1">
@@ -153,7 +156,7 @@
   <!-- table -->
   <table class=" table table-hover mt-5 align-middle">
     <thead class="fw-bold ">
-      <tr>
+      <tr data-aos="fade-up"      data-aos-duration="1500">
         <th scope="col ">ID <i class="fa-solid fa-arrow-down text-success"></i></th>
         <th scope="col">Name</th>
         <th scope="col">Email</th>
@@ -163,7 +166,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
+      <tr data-aos="fade-up"      data-aos-duration="1500">
         <th scope="row ">#1</th>
         <td>Emir Wicks</td>
         <td>emir.wicks@mail.com</td>
@@ -180,7 +183,7 @@
             <i class="fa-solid fa-pen  "></i>
           </button>
         </td>
-      </tr>
+      </tr data-aos="fade-up"      data-aos-duration="1500">
       <!-- Modal 1 -->
       <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
@@ -310,7 +313,7 @@
         </div>
       </div>
       <!-- modal end -->
-        <tr>
+        <tr data-aos="fade-up"      data-aos-duration="1500">
           <th scope="row">#2</th>
           <td>Zaina Goldsmith</td>
           <td>zaina.goldsmith@mail.com</td>
@@ -319,7 +322,7 @@
           <td class="text-center"><i class="fa-solid fa-pen  "></i></td>
 
         </tr>
-        <tr>
+        <tr data-aos="fade-up"      data-aos-duration="1500">
           <th scope="row">#3</th>
           <td>Mahima Lopez</td>
           <td>mahima.lopez@mail.com</td>
@@ -327,7 +330,7 @@
           <td class="text-center"><i class="fa-solid fa-eye "></i></td>
           <td class="text-center"><i class="fa-solid fa-pen  "></i></td>
         </tr>
-        <tr>
+        <tr data-aos="fade-up"      data-aos-duration="1500">
           <th scope="row">#4</th>
           <td>Pharrell Murray</td>
           <td>pharrell.murray@mail.com</td>
@@ -335,7 +338,7 @@
           <td class="text-center"><i class="fa-solid fa-eye "></i></td>
           <td class="text-center"><i class="fa-solid fa-pen  "></i></td>
         </tr>
-        <tr>
+        <tr data-aos="fade-up"      data-aos-duration="1500">
           <th scope="row">#5</th>
           <td>Annika Mcbride</td>
           <td>annika.mcbride@mail.com</td>
@@ -343,7 +346,7 @@
           <td class="text-center"><i class="fa-solid fa-eye "></i></td>
           <td class="text-center"><i class="fa-solid fa-pen  "></i></td>
         </tr>
-        <tr>
+        <tr data-aos="fade-up" data-aos-duration="1500">
           <th scope="row">#6</th>
           <td>Fatimah Clark</td>
           <td>fatimah.clark@mail.com</td>
@@ -351,7 +354,7 @@
           <td class="text-center"><i class="fa-solid fa-eye "></i></td>
           <td class="text-center"><i class="fa-solid fa-pen  "></i></td>
         </tr>
-        <tr>
+        <tr data-aos="fade-up"      data-aos-duration="1500">
           <th scope="row">#7</th>
           <td>Klaudia Rhodes</td>
           <td>klaudia.rhodes@mail.com</td>
@@ -359,7 +362,7 @@
           <td class="text-center"><i class="fa-solid fa-eye "></i></td>
           <td class="text-center"><i class="fa-solid fa-pen  "></i></td>
         </tr>
-        <tr>
+        <tr data-aos="fade-up"      data-aos-duration="1500">
           <th scope="row">#8</th>
           <td>Tillie Lucero</td>
           <td>tillie.lucero@mail.com</td>
@@ -367,7 +370,7 @@
           <td class="text-center"><i class="fa-solid fa-eye "></i></td>
           <td class="text-center"><i class="fa-solid fa-pen  "></i></td>
         </tr>
-        <tr>
+        <tr data-aos="fade-up"      data-aos-duration="1500">
           <th scope="row">#9</th>
           <td>Sabrina Stephenson</td>
           <td>sabrina.stephenson@mail.com</td>
@@ -375,7 +378,7 @@
           <td class="text-center"><i class="fa-solid fa-eye "></i></td>
           <td class="text-center"><i class="fa-solid fa-pen  "></i></td>
         </tr>
-        <tr>
+        <tr data-aos="fade-up"      data-aos-duration="1500" >
           <th scope="row">#10</th>
           <td>Annie Smith</td>
           <td>annie.smith@mail.com</td>
@@ -403,10 +406,13 @@
     </ul>
   </nav>
 
-    </div>
-
-    <script src="./assets/js/vendors.js"></script>
-    <script src="./assets/js/all.js"></script>
-  </body>
+  </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
 
 </html>
